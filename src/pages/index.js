@@ -8,6 +8,7 @@ import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
 import FeaturesPlaces from "../components/Home/FeaturedPlaces"
 
+
 export const query = graphql`
 query {
   defaultBcg: file(relativePath: {eq: "defaultBcg.jpeg"}) {
